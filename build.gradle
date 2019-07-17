@@ -15,7 +15,7 @@ import net.minecraftforge.gradle.common.task.SignJar
 
 version = "0.0.1"
 group= "me.lain.tmcs"
-archivesBaseName = "TestMod-CheckSpawn"
+archivesBaseName = "TestModCheckSpawn"
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8'
 
@@ -33,7 +33,7 @@ processResources {
 
 jar {
     manifest {
-        attributes(["Specification-Title": "TestMod-CheckSpawn",
+        attributes(["Specification-Title": "TestModCheckSpawn",
                     "Specification-Vendor": "zlainsama",
                     "Specification-Version": "1",
                     "Implementation-Title": project.name,

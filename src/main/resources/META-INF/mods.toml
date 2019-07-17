@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion="[25,)"
+issueTrackerURL="https://github.com/zlainsama/TestMod-CheckSpawn/issues"
+displayURL="https://github.com/zlainsama/TestMod-CheckSpawn"
+#logoFile=""
+credits=""
+authors="zlainsama"
+[[mods]]
+modId="testmodcheckspawn"
+version="${file.jarVersion}"
+displayName="TestModCheckSpawn"
+#updateJSONURL=""
+description='''
+A simple Minecraft forge test mod for CheckSpawn event
+'''
+[[dependencies.testmodcheckspawn]]
+modId="forge"
+mandatory=true
+versionRange="[25,)"
+ordering="NONE"
+side="BOTH"
